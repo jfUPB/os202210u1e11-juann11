@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "eventList.h"
 
-//#define DOLOG
+#define DOLOG
 #ifdef DOLOG
 #define LOG(...) fprintf(log,__VA_ARGS__);
 #else
